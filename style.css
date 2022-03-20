@@ -28,3 +28,9 @@ button
   border-radius: 1px;
 }
 
+#gameButtonArea > button 
+{
+  width:200px;
+  height:200px;
+  margin:2px;
+}
