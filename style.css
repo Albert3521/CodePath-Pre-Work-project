@@ -8,7 +8,10 @@ to this section's matching END comment to see page-specific styles.
 ******************************************************************************/
 
 
-body{
+body
+{
+  font-family: helvetica, aria, sans-serif;
+  margin: 2em;
   background-color: slategrey;
   color: white;
 }
@@ -16,4 +19,12 @@ body{
 h1
 {
   font-family: verdana, arial, sans-serif;
+  
 }
+
+button
+{
+  padding: 12px;
+  border-radius: 1px;
+}
+
