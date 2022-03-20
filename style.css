@@ -34,3 +34,48 @@ button
   height:200px;
   margin:2px;
 }
+
+.hidden
+{
+  display: none;
+}
+
+#button1
+{
+  background: lightgreen;
+}
+
+#button2
+{
+  background: lightblue;
+}
+
+#button3
+{
+  background: pink;
+}
+
+#button4
+{
+  background: lightyellow;
+}
+
+#button1.active
+{
+  background: green;
+}
+
+#button2.active
+{
+  background: blue;
+}
+
+#button3.active
+{
+  background: red;
+}
+
+#button4.active
+{
+  background: yellow;
+}
