@@ -60,22 +60,22 @@ button
   background: lightyellow;
 }
 
-#button1.active
+#button1:active
 {
   background: green;
 }
 
-#button2.active
+#button2:active
 {
   background: blue;
 }
 
-#button3.active
+#button3:active
 {
   background: red;
 }
 
-#button4.active
+#button4:active
 {
   background: yellow;
 }
