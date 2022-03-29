@@ -10,7 +10,7 @@ function startGame()
   gamePlaying = true;
   
   //swapping start and sto buttons
-  document.getElementById("startBtn").classList.add("hideen");
+  document.getElementById("startBtn").classList.add("hidden");
   document.getElementById("stopBtn").classList.remove("hidden");
   
 }
