@@ -130,4 +130,28 @@ function guess(btn)
       return;
     }
   //add game logic here
+  if (pattern[guessCounter] == btn)
+    {
+      if(guessCounter ==progress) // Guees corect
+        {
+          if(progress == pattern.length - 1)
+            {
+              winGame(); //Game over and win
+            }
+          else
+            {
+              progress++; //Pattern was correct so add the next segment
+              playClueSequence();
+            }
+        }
+      else
+        {
+          guessCounter++; //This will check the next guess
+        }
+    }
+  else 
+    {
+      loseGame(); //If guess was wrong then the game will end in a loss
+    }
+  
 }
