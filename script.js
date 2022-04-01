@@ -1,5 +1,5 @@
 //Global Constants
-const clueHoldTime = 1000; //This indicates how long to hold each clue's light/sound
+const clueHoldTime = 400; //This indicates how long to hold each clue's light/sound
 const cluePauseTime = 333; //How long to pause in between clues
 const nextClueWaitTime = 1000; // How long to wait before starting to playback of the clue sequence
 
